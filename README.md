@@ -1,2 +1,2 @@
 # Project-11
-Automating Projects 7-10 using Ansible Configuration Management tool.
+Automating Projects 7-10 with Ansible Configuration Management
