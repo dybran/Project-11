@@ -80,7 +80,7 @@ To check if the artifacts from the build was saved and archived successfully, we
 
 The architecture now looks like this
 
-![image](./images/aq.png)
+![image](./images/aq.PNG)
 
 __N/B:__
 
