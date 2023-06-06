@@ -147,7 +147,7 @@ We will write an ansible inventory file which defines the hosts and groups of ho
 
 __Note:__ Ansible uses TCP port 22 by default, which means it needs to ssh into target servers from __Jenkins-Ansible__ host – for this we will need to import the key into ssh-agent.
 
-To setup SSH agent and connect VS Code to the Jenkins-Ansible instance. Click [here](https://www.youtube.com/watch?v=OplGrY74qog).
+To setup SSH agent and connect VS Code to the Jenkins-Ansible instance. Click [here](https://www.youtube.com/watch?v=lKXMyln_5q4).
 
 Open the link [openSSH-documentation](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=powershell) and follow the setup procedure.
 
@@ -180,7 +180,7 @@ Insert the following
 host: test
     hostname: <public-dns-of-jenkins-ansible-server> 
     user: ubuntu
-    ForwardAgent: yes
+    IdentityFile C:\Users\USER\Downloads\dybran-ec2.pem
 ```
 ![image](./images/vsc-ssh-config-file.PNG)
 
