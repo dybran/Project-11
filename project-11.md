@@ -177,12 +177,11 @@ Search for __"ssh"__, then select __"open ssh configuration file"__ from the opt
 Insert the following
 
 ```
-host: test
+host: Jenkins-ansible
     hostname: <public-dns-of-jenkins-ansible-server> 
     user: ubuntu
     IdentityFile C:\Users\USER\Downloads\dybran-ec2.pem
 ```
-![image](./images/vsc-ssh-config-file.PNG)
 
 click on the highlighted section in the bottom left corner again
 i.e 
