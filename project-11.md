@@ -154,10 +154,11 @@ Open the link [openSSH-documentation](https://learn.microsoft.com/en-us/windows-
 
 To add the key we run the command
 eval 
+```
+$ eval `ssh-agent -s` 
 
-`$ eval 'ssh-agent -s'` 
-
-`$ ssh-add <path-to-private-key>`
+$ ssh-add <path-to-private-key>
+```
 
 To Confirm the key has been added, we run
 
