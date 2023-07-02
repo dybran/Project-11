@@ -372,7 +372,7 @@ __Note:__ if we do not want __"host key checking"__, We can uncomment `#host_key
 
 ![image](./images/host-checking.PNG)
 
-To run our playbook, We check fi the syntax is __OK__ by running the command
+To run our playbook, We check if the syntax is __OK__ by running the command
 
 `$ ansible-playbook -i /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/inventory/dev.yml /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/playbooks/common.yml --syntax-check`
 
